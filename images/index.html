@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            font-size: 18pt;
+            background-color: rgb(5, 11, 32);
+            color: #ffffff;
+            text-align: center;
+        }
+        header{
+            padding-top: 30px;
+        }
+        #container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #container img{
+            height: 350px;  
+        }
+        figure{
+            position: relative;
+        }
+        figcaption {
+            opacity: 0;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 99%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            transition: 0.8s;
+        }
+        figcaption:hover{
+            opacity: 1;
+        }   
+    </style>
+</head>
+<body>
+   
+    <div id="container">
+        <figure>
+            <img src="./pictures/html.jpg" alt="Livros Html, Css e Java Script">
+            <figcaption>
+                <h2>Imagem dos arquivos</h2>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80" alt="Macbook">
+            <figcaption>
+                <h2>Imagem da internet</h2>
+            </figcaption>
+        </figure>
+        
+    </div>
+    
+</body>
+</html>
