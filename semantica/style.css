@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    background-color: #0c0c0c;
+}
+h1, h2, h3{
+    color: #DF8BBD;
+}
+#container{
+    padding: 40px;
+    width: 90vw;
+    margin: 50px auto;
+    border-radius: 20px;
+    /* box-shadow: #603555 0px 0px 30px ; */
+    display: flex;
+    justify-content: space-between;
+}
+#container #lyrics{
+    font-size: 12pt;
+    padding-right: 80px;
+    border-right: solid #DF8BBD 3px;
+    font-family: monospace;
+    line-height: 1.8;
+}
+#container #lyrics header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#container #lyrics header img{
+    display: block;
+    height: 80px;
+    border-radius: 5px;
+    
+}
+
+#container #lyrics em{
+    background-color: #443242;
+}
+#container #about{
+    line-height: 1.2;
+    text-align: justify;
+    font-size: 10pt;
+    width: 350px;
+    padding-left: 30px
+}
+#container #about h2{
+    text-align: right;
+    padding-bottom: 20px;
+}
+#container #about img{
+    display: block;
+    height: 200px;
+    border: solid #b16f97 2px;
+    margin: 20px auto;
+    
+}
+
+/* body {
+    background-color: #98cfe9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around ;
+    margin: 30px;
+    
+}
+#about{
+    width: 400px;
+}
+
+#lyrics{
+    line-height: 1.5;
+    width: 500px;
+}
+#lyrics em{
+    background-color:white;
+}
+span{
+    display: block;
+    margin: 15px 0;
+}
+footer{
+    margin-top: 50px;
+    padding-top: 20px ;
+    border-top: solid #000000 1px;
+} */
