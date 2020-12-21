@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +8,14 @@
 </head>
 <body>
     <div id="container">
-        <div>
+        <div id="codigo">
+            <h1>&lt;Código&gt;</h1>
             <pre>
                 <code lang="python">
     # coding: utf-8
-    from random import randint    
+
+    from random import randint
+
     char_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
                 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
                 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a',
@@ -20,19 +23,25 @@
                 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
                 't', 'u', 'v', 'w', 'x', 'y' , 'z','0', '1',
                 '2', '3', '4', '5', '6', '7', '8', '9', '?',
-                '#', '$', '%', '&', '*', '_', '(', ')', '-']    
+                '#', '$', '%', '&', '*', '_', '(', ')', '-']
+
     while True:
         password = ''
+
         for i in range(10):
             pos = randint(0, len(char_list)-1)
             password = password + char_list[pos]
+
         print(f'Password: \033[1;32m{password}\033[m')
         reply = input('Deseja gerar outra senha? S/N: ').upper()
+
         if reply == 'S':
             continue
+
         elif reply == 'N':
             print('Ok, obrigado!')
             break
+
         else:
             print('Resposta inválida :(')
             break
@@ -40,8 +49,10 @@
                 </code>
             </pre>
         </div>
-        <div>
+        <div id="screenshoot">
             <h1>Gerador de senhas em Python 3</h1>
+            <img src="./screenshoot.jpeg" alt="screenshoot">
+            <blockquote>As senhas são uma ameaça real. <em>Mais de 80% das violações por hacks acontecem devido a senhas fracas ou roubadas, de acordo com um relatório recente.</em> Por isso, se você deseja proteger suas informações pessoais e recursos, a criação de senhas seguras é o primeiro grande passo.</blockquote>
         </div>
     </div>
     
