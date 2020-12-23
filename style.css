@@ -1,0 +1,45 @@
+:root {
+    /* tamanho da fonte 16px 100% 1rem*/
+    font-size: 62.5%; /* 10px */
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 500 1.6rem Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0077b6;
+}
+a:hover{
+    text-decoration: underline;
+    color: #48cae4;
+}
+#container{
+    margin: 2rem 0;
+    width: 95vw;
+    padding: 1.5rem;
+}
+#container header{
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.8rem;
+}
+#container header h1{
+    color: #0077b6;
+    text-decoration: ;
+    line-height: 1.3;
+}
+.pagina{
+    border: solid #003e5f 1px;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    
+}
