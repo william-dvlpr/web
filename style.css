@@ -14,15 +14,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-a{
-    text-decoration: none;
-    color: #0077b6;
-}
-a:hover{
-    text-decoration: underline;
-    color: #48cae4;
-}
 #container{
     width: 100vw;
 }
@@ -54,6 +45,13 @@ a:hover{
 #container .repositories{
     padding: 1.5rem;
 }
+#container .repositories a{
+    text-decoration: none;
+    color: #0077b6;
+}
+#container .repositories a{
+    text-decoration: underline;
+}
 .repository{
     border: solid #003e5f 1px;
     padding: 0.6rem;
@@ -61,7 +59,20 @@ a:hover{
 }
 /* F O O T E R */
 footer{
-    margin-top: 4rem;
+    background-color: #121212;
+    height: 10vh;
+    margin-top: 90vh;
+    padding: 0 4rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #e44d26;
+    transition: 200ms;
+}
+footer a:hover{
+    color: #f18a29;
 }
