@@ -27,17 +27,20 @@ a:hover{
     width: 100vw;
 }
 #container header{
-    background-color: #363b3d;
-    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121214;
+    padding: 1.2rem;
     margin-bottom: 1.8rem;
 }
 #container header h1{
-    color: #0077b6;
+    color: #ffffff;
     text-decoration: ;
     line-height: 1.3;
 }
 #container header img{
-    height: 10rem;
+    height: 5rem;
 }
 #container .repositories{
     padding: 1.5rem;
