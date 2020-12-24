@@ -26,13 +26,14 @@ a:hover{
 #container{
     width: 100vw;
 }
+
+/* H E A D E R */
 #container header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #121214;
     padding: 1.2rem;
-    margin-bottom: 1.8rem;
 }
 #container header h1{
     color: #ffffff;
@@ -42,15 +43,23 @@ a:hover{
 #container header img{
     height: 5rem;
 }
+
+/* A B O U T */
+#container #about{
+    padding: 1.2rem;
+    margin: 1rem 0;
+    color: #121214;
+}
+/* R E P O S I T O R I E S */
 #container .repositories{
     padding: 1.5rem;
 }
 .repository{
     border: solid #003e5f 1px;
     padding: 0.6rem;
-    border-radius: 0.4rem;
-    
+    border-radius: 0.4rem;  
 }
+/* F O O T E R */
 footer{
     margin-top: 4rem;
     display: flex;
