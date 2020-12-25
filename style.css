@@ -1,15 +1,16 @@
+/*  P R E S E T */
 :root {
-    /* tamanho da fonte 16px 100% 1rem*/
-    font-size: 62.5%; /* 10px */
+    /* font size 16px == 100% == 1rem*/
+    font-size: 62.5%; /* == 10px == 1rem */
 }
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+/* D E F A U L T */
 body {
-    font: 500 1.6rem Arial;
+    font: 400 1.6rem Arial;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +29,7 @@ body {
 }
 #container header h1{
     color: #ffffff;
-    text-decoration: ;
+    text-decoration: none;
     line-height: 1.3;
 }
 #container header img{
@@ -41,22 +42,33 @@ body {
     margin: 1rem 0;
     color: #121214;
 }
+
 /* R E P O S I T O R I E S */
 #container .repositories{
     padding: 1.5rem;
 }
-#container .repositories a{
+.repository{
+    border: solid #777777 1px;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    transition: .5s;
+}
+.repository:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
+    border: solid #444444 1px;
+}
+.repository h2{
+    font-size: 2rem;
+}
+#container .repository a{
     text-decoration: none;
     color: #0077b6;
 }
-#container .repositories a{
+#container .repository a:hover{
     text-decoration: underline;
 }
-.repository{
-    border: solid #003e5f 1px;
-    padding: 0.6rem;
-    border-radius: 0.4rem;  
-}
+
+
 /* F O O T E R */
 footer{
     background-color: #121212;
