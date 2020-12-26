@@ -50,11 +50,13 @@ body {
 .repository{
     border: solid #777777 1px;
     padding: 0.6rem;
+    margin-bottom: 2.5rem;
     border-radius: 0.3rem;
     transition: .5s;
+
 }
 .repository:hover{
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
     border: solid #444444 1px;
 }
 .repository h2{
