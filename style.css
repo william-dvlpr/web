@@ -17,6 +17,10 @@ body {
 }
 #container{
     width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* H E A D E R */
@@ -38,11 +42,19 @@ body {
 
 /* A B O U T */
 #container #about{
+    font-size: 1.4rem;
     padding: 1.2rem;
     margin: 1rem 0;
     color: #121214;
 }
-
+#container #about a{
+    font-weight: 600;
+    color: #e44d26;
+    text-decoration: none;
+}
+#container #about a:hover{
+    color: #f18a29;
+}
 /* R E P O S I T O R I E S */
 #container .repositories{
     padding: 1.5rem;
@@ -50,7 +62,7 @@ body {
 .repository{
     border: solid #777777 1px;
     padding: 0.6rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     border-radius: 0.3rem;
     transition: .5s;
 
@@ -74,9 +86,8 @@ body {
 /* F O O T E R */
 footer{
     background-color: #121212;
-    height: 10vh;
-    margin-top: 90vh;
-    padding: 0 4rem;
+    /* margin-top: 90vh; */
+    padding: 2.5rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
